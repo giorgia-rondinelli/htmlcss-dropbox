@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 header{
-  height: 80px;
-  background-color: pink;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  background-color: white;
   
 }
 
@@ -17,15 +17,19 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+main{
+  display: flex;
+  justify-content: center;
+}
+/* intestazione */
+
 header>div{
-  background-color: greenyellow;
   display: flex;
   margin: 0 15px;
   height: 100%;
   
 }
 .menu-principale div, .menu-principale nav{
-  background-color: rgb(235, 235, 81);
    height: 100%;
    display: flex;
    align-items: center;
@@ -58,8 +62,70 @@ header>div{
   color: black;
   margin-right: 10px;
 }
-.inizia{
+.btn{
   color: white;
   background-color: rgb(0,97,255);
-  padding: 4px 7px;
+  padding: 5px 8px;
 }
+/* intestazione */
+
+/* jumbotron */
+
+
+.contenitore-grande {
+  width: 100%;
+  height: 500px;
+  background-color:rgb(180,208,231);
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  
+}
+.contenitore-medio{
+  max-width:1100px;
+  width: 800px;
+  height: 520px;
+ 
+}
+
+h1{
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-top: 50px;
+
+}
+.contenuto{
+  display:flex;
+}
+.contenuto .testo-jumbo{
+  width: 35%;
+  font-size: .7rem;
+  padding-right: 10px;
+  font-weight: 500;
+
+}
+.testo-jumbo p,.testo-jumbo div,.testo-jumbo {
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+}
+
+.testo-jumbo a{
+  text-decoration: none;
+  padding: 9px;
+}
+
+.testo-jumbo i{
+  font-size: 2.5rem;
+    
+}
+
+.img-jumbo{
+  width: 70%;
+}
+.img-jumbo img{
+ width: 100%;
+ padding-top: 40px;
+}
+
+
