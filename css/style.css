@@ -21,6 +21,10 @@ body{
   font-size: .6rem;
 }
 
+.w{
+  font-weight: 650;
+}
+
 /* intestazione */
 
 header>div{
@@ -137,18 +141,20 @@ h1{
 /* jumbotron */
 
 /* sezione piani business */
-.piani{
+.sezione{
   display: flex;
   justify-content: center;
+}
+.sezione.piani{
   margin-top: 80px;
 }
 .contenitore-piccolo{
   max-width:1000px;
   width: 700px;
-  height: 700px;
+  height: 740px;
+  
 }
 .scelta{
- 
 }
 .scelta input{
   margin: 30px 0;
@@ -163,6 +169,7 @@ h1{
   justify-content: space-between;
 }
 .opzioni{
+  height: 630px;
   width: 30%;
   border: 1px solid rgb(224,224,226);
 
@@ -189,7 +196,7 @@ h1{
 }
 h3{
 padding: 10px 0;
-font-weight: 750;
+font-weight: 700;
 }
 .contenuto-offerte nav{
   margin-bottom: 30px;
@@ -236,3 +243,28 @@ font-weight: 750;
  }
 
  /* piani business */
+ .enterprise{
+  margin-top: 20px;
+ }
+
+ .contatta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 15px;
+ }
+ .enterprise-bottom{
+  width: 60%;
+  padding: 0px 15px;
+ }
+.ufficio{
+  padding-bottom: 30px;
+}
+.contenitore-bottom{
+  border: 1px solid rgb(224,224,226);
+  padding: 15px 10px;
+}
+
+.btn.vendite{
+  padding: 7px 20px;
+}
