@@ -17,10 +17,10 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-main{
-  display: flex;
-  justify-content: center;
+.size{
+  font-size: .6rem;
 }
+
 /* intestazione */
 
 header>div{
@@ -36,6 +36,8 @@ header>div{
 }
 .menu-principale nav ul{
   display: flex;
+}
+ul{
   list-style: none;
 }
 .menu-principale nav ul li a{
@@ -71,7 +73,10 @@ header>div{
 
 /* jumbotron */
 
-
+.jumbotron{
+  display: flex;
+  justify-content: center;
+}
 .contenitore-grande {
   width: 100%;
   height: 500px;
@@ -99,7 +104,7 @@ h1{
 }
 .contenuto .testo-jumbo{
   width: 35%;
-  font-size: .7rem;
+  font-size: .6rem;
   padding-right: 10px;
   font-weight: 500;
 
@@ -126,6 +131,96 @@ h1{
 .img-jumbo img{
  width: 100%;
  padding-top: 40px;
+
 }
 
+/* jumbotron */
 
+/* sezione piani business */
+.piani{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.contenitore-piccolo{
+  max-width:1000px;
+  width: 700px;
+  height: 700px;
+}
+.scelta{
+ 
+}
+.scelta input{
+  margin: 30px 0;
+}
+.scelta span{
+  padding-right: 30px;
+  font-size: .6rem ;
+  
+}
+.trova{
+  display: flex;
+  justify-content: space-between;
+}
+.opzioni{
+  width: 30%;
+  border: 1px solid rgb(224,224,226);
+
+}
+.tipologia{
+  text-align: center;
+  border: 1px solid rgb(224,224,226);
+
+}
+.contenuto-offerte{
+  padding: 15px;
+  
+}
+.price{
+  font-weight: 650;
+  font-size: .6rem;
+  padding-bottom: 8px;
+  
+}
+.tempo{
+  padding-bottom: 25px;
+  color: rgb(137,137,137);
+}
+h3{
+padding: 10px 0;
+font-weight: 750;
+}
+.contenuto-offerte nav{
+  margin-bottom: 30px;
+}
+
+.contenuto-offerte nav,.tempo{
+  font-size: .6rem;
+  font-weight:500 ;
+ }
+ .contenuto-offerte nav ul li{
+  padding: 8px 0;
+ }
+ .btn.gratis{
+  font-size: .6rem;
+  padding: 7px 20px;
+  
+  
+ }
+ .acquista{
+  padding: 20px 0;
+ }
+ .salienti{
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  
+ }
+ .spunte ul li i{
+  color:rgb(0,97,255) ;
+ 
+ }
+
+ .spunte ul li{ font-weight: 550;
+  
+ }
