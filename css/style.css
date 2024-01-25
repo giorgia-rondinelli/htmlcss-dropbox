@@ -170,6 +170,7 @@ h1{
 .tipologia{
   text-align: center;
   border: 1px solid rgb(224,224,226);
+  padding: 8px;
 
 }
 .contenuto-offerte{
@@ -192,6 +193,7 @@ font-weight: 750;
 }
 .contenuto-offerte nav{
   margin-bottom: 30px;
+  height: 120px;
 }
 
 .contenuto-offerte nav,.tempo{
@@ -207,6 +209,12 @@ font-weight: 750;
   
   
  }
+ .btn.contattaci{
+  font-size: .6rem;
+  padding: 7px 60px;
+  text-align: center;
+
+ }
  .acquista{
   padding: 20px 0;
  }
@@ -218,9 +226,13 @@ font-weight: 750;
  }
  .spunte ul li i{
   color:rgb(0,97,255) ;
+  font-size: 1.2em;
+ 
  
  }
 
  .spunte ul li{ font-weight: 550;
   
  }
+
+ /* piani business */
