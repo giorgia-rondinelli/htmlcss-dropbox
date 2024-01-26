@@ -151,7 +151,7 @@ h1{
 .contenitore-piccolo{
   max-width:1000px;
   width: 750px;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   
 }
 .scelta{
@@ -475,4 +475,25 @@ h2{
 
 /* azienda */
 
+/* domande */
+.domande{
+  display: flex;
+  justify-content: center;
+  margin: 120px 0;
+}
+.domande .contenitore-piccolo h2{
+  padding-bottom: 40px;
+  font-size: 1.7rem;
+  border-bottom: 1px solid rgb(195,195,195);
+}
+.contenuto-domande{
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: .7rem;
+  font-weight: 700;
+  padding: 25px 0;
+  border-bottom: 1px solid rgb(195,195,195);
+}
 
+/* domande  */
