@@ -443,3 +443,36 @@ h2{
   padding-top: 40px;
 }
 /* .designit */
+
+/* azienda */
+.sfondo-azzurro{
+  background-color: rgb(180,208,231);
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+.sfondo-azzurro div{
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 280px;
+}
+.sfondo-azzurro h2{
+  font-size: 1.7rem;
+  font-weight: 700;
+  width: 50%;
+  color: rgb(97,8,43);
+}
+.sfondo-azzurro div span a{
+  font-size: .7rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  background-color: white ;
+  padding: 8px 30px;
+
+}
+
+/* azienda */
+
+
