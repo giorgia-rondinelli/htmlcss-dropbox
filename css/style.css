@@ -355,21 +355,21 @@ h2{
   font-size: .7rem;
 }
 /* 500.000 team  */
-
 /* disignit */
 .contenitore-pagina{
   width: 100vw;
   background-color: aqua;
-  height: 500px;
+  height: 400px;
   margin-top: 90px;
   display: flex;
 }
 .quadrati-contenitori{
-  width: calc(100% / 3);
-  background-color: blueviolet;
-  border: 1px solid black;
+  width: calc(100% / 3);  
 }
-
+.quadrati-contenitori.centrale{
+  overflow: auto;
+  height: 400px;
+}
 .quadrati-contenitori.brand{
   display: flex;
   height: 400px;
@@ -394,6 +394,7 @@ h2{
 }
 .designit{
   background-color: rgb(162,211,155);
+  border:rgb(183, 212, 179) solid 10px ;
 
 }
 .asu{
@@ -408,4 +409,37 @@ h2{
 .florida{
   object-fit: contain;
 }
+.hearst{
+  background-color: rgb(180,208,231);
+}
+.world{
+  background-color:rgb(213,0,31) ;
+}
+.lonely{
+  background-color:rgb(13,36,129);
 
+}
+.clear{
+  background-color: rgb(255,216,48);
+}
+
+.quadrati-contenitori div img{
+  height: 60px;
+}
+.designit-testo{
+  padding: 40px;
+}
+.designit-testo p{
+  padding-top: 40px;
+  font-size: .7rem;
+  font-weight: 500;
+}
+.linea-quadrati{
+  margin-top: 40px;
+}
+.designit-testo div{
+  font-size: .7rem;
+  font-weight: 500;
+  padding-top: 40px;
+}
+/* .designit */
