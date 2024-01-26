@@ -150,8 +150,8 @@ h1{
 }
 .contenitore-piccolo{
   max-width:1000px;
-  width: 700px;
-  background-color: cadetblue;
+  width: 750px;
+  /* background-color: cadetblue; */
   
 }
 .scelta{
@@ -313,6 +313,32 @@ font-weight: 700;
 
 /* partner  */
 
+/* esegui  */
+
+h2{
+  font-size: 2rem;
+}
+
 .esegui{
   margin-top: 90px;
+
 }
+.contenuto-esegui{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.contenuto-esegui div{
+  width: 30%;
+  margin-top: 30px;
+
+}
+.contenuto-esegui div img{
+  object-fit: cover;
+  width: 100%;
+  
+}
+.contenuto-esegui div p{
+  font-weight: 500;
+}
+/* esegui  */
