@@ -72,6 +72,15 @@ ul{
   color: white;
   background-color: rgb(0,97,255);
   padding: 5px 8px;
+  opacity: 1;
+  
+}
+
+.btn:hover{
+  opacity: 0.7;
+ 
+
+
 }
 /* intestazione */
 
@@ -151,13 +160,16 @@ h1{
 .contenitore-piccolo{
   max-width:1000px;
   width: 750px;
-  /* background-color: cadetblue; */
   
 }
 .scelta{
 }
 .scelta input{
   margin: 30px 0;
+
+  
+}
+.selezionato{
 }
 .scelta span{
   padding-right: 30px;
@@ -231,11 +243,20 @@ font-weight: 700;
   font-weight: 700;
   
  }
+.contenuto-offerte nav ul li i{
+  padding-right: 5px;
+}
+
  .spunte ul li i{
   color:rgb(0,97,255) ;
   font-size: 1.2em;
+  padding-right: 5px;
+
  
  
+ }
+ li{
+  display: flex;
  }
 
  .spunte ul li{ font-weight: 550;
@@ -358,7 +379,6 @@ h2{
 /* disignit */
 .contenitore-pagina{
   width: 100%;
-  background-color: aqua;
   height: 400px;
   margin-top: 90px;
   display: flex;
