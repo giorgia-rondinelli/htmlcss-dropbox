@@ -514,6 +514,26 @@ h2{
   font-weight: 700;
   padding: 25px 0;
   border-bottom: 1px solid rgb(195,195,195);
+  position: relative;
+
+ 
+}
+
+.menu-tendina{
+  display: none;
+  font-size: .7rem;
+  position: absolute;
+  bottom: 10px;
+  font-weight: 400;
+}
+.contenuto-domande:hover .menu-tendina {
+  display: block;
+
+}
+
+.contenuto-domande:hover{
+  height: 100px;
+ 
 }
 
 /* domande  */
